@@ -1,0 +1,84 @@
+\documentclass[11pt]{article}
+% para poder escribir unicode directo (🐕)
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+% paquete para poder añadir imágenes
+\usepackage{graphicx}
+% dirección dónde poner sus imágenes (pueden agregar más entre corchetes
+\graphicspath{{./imgs/}}
+% probablemente quieran este paquete para símbolos matemáticos
+\usepackage{amsmath}
+% formato general
+\usepackage[spanish, mexico, american]{babel}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+
+% encabezados
+\lhead{REPLACE Tarea}
+\rhead{REPLACE Nombre}
+
+% metadatos del documento
+\title{REPLACE Tarea}
+\author{REPLACE Nombre}
+\date{\today}
+
+% empieza el documento
+\begin{document}
+% empieza portada
+\thispagestyle{empty}
+\begin{figure}[ht]
+  \minipage{0.76\textwidth}
+  \includegraphics[width=4cm]{logo_unam.png}
+  \label{EscudoUNAM}
+  \endminipage
+  \minipage{0.32\textwidth}
+  \includegraphics[height = 4.9cm ,width=4cm]{logo_ciencias.png}
+  \label{EscudoFC}
+  \endminipage
+\end{figure}
+
+\begin{center}
+  \vspace{0.8cm}
+  \LARGE
+  UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO
+
+  \vspace{0.8cm}
+  \LARGE
+  FACULTAD DE CIENCIAS
+
+  \vspace{1.7cm}
+  \Large
+  \textbf{Tarea 1 - Matemáticas discretas}
+
+  \vspace{1.3cm}
+  \normalsize
+  PRESENTA \\
+  \vspace{.3cm}
+  \large
+  \textbf{REPLACE Nombre \\ REPLACE No. de cuenta}
+
+  \vspace{1.3cm}
+  \normalsize
+  PROFESOR \\
+  \vspace{.3cm}
+  \large
+  \textbf{REPLACE Profesor}
+
+  \vspace{1.3cm}
+  \normalsize
+  ASIGNATURA \\
+  \vspace{.3cm}
+  \large
+  \textbf{REPLACE Asignatura}
+
+  \vspace{1.3cm}
+  \today
+\end{center}
+
+% termina portada
+
+\newpage
+
+\end{document}
