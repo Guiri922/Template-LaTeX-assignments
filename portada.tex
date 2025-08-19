@@ -10,18 +10,24 @@
 \usepackage{amsmath}
 % formato general
 \usepackage[spanish, mexico, american]{babel}
-\usepackage[margin=2.5cm]{geometry}
+\usepackage[margin=2.5cm, 
+headheight=25.22153pt]{geometry}
 \usepackage{fancyhdr}
 \pagestyle{fancy}
-\fancyhf{}
 
 % encabezados
-\lhead{REPLACE Tarea}
-\rhead{REPLACE Nombre}
+\fancyhead{}
+\fancyhead[L]{Profesor: César Hernández Cruz\\
+Ayudantes: Iñaki Cornejo, Daniel García}
+\fancyhead[R]{Matemáticas discretas}
+\fancyfoot{}
+\fancyfoot[L]{Rivas Moguel Guillermo Abraham}
+\fancyfoot[R]{\thepage}
+\renewcommand{\footrulewidth}{0.4pt}
 
 % metadatos del documento
-\title{REPLACE Tarea}
-\author{REPLACE Nombre}
+\title{Tarea 1}
+\author{Rivas Moguel Guillermo Abraham}
 \date{\today}
 
 % empieza el documento
@@ -50,28 +56,28 @@
 
   \vspace{1.7cm}
   \Large
-  \textbf{Tarea 1 - Matemáticas discretas}
+  \textbf{Práctica 1}
 
   \vspace{1.3cm}
   \normalsize
   PRESENTA \\
   \vspace{.3cm}
   \large
-  \textbf{REPLACE Nombre \\ REPLACE No. de cuenta}
+  \textbf{Rivas Moguel Guillermo Abraham}
 
   \vspace{1.3cm}
   \normalsize
   PROFESOR \\
   \vspace{.3cm}
   \large
-  \textbf{REPLACE Profesor}
+  \textbf{César Herández Cruz}
 
   \vspace{1.3cm}
   \normalsize
   ASIGNATURA \\
   \vspace{.3cm}
   \large
-  \textbf{REPLACE Asignatura}
+  \textbf{Matemáticas Discretas}
 
   \vspace{1.3cm}
   \today
@@ -80,5 +86,7 @@
 % termina portada
 
 \newpage
+
+
 
 \end{document}
